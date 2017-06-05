@@ -99,13 +99,14 @@ and open the template in the editor.
                      <h1>Reach us through all mediums</h1>
                      <p>You can reach SHB from any communication system or application you might have. No need to worry about getting something new or sophisticated.</p>
                      <ul class="list-group">
-                         <li class="list-group-item"> <span class="glyphicon glyphicon-user">iPhone</span></li>
-                        <li class="list-group-item"> <span class="glyphicon glyphicon-user">iPhone</span></li>
-                         <li class="list-group-item"> <span class="glyphicon glyphicon-user">iPhone</span></li>
-                         <li class="list-group-item"> <span class="glyphicon glyphicon-user">iPhone</span></li>
-                        <li class="list-group-item"> <span class="glyphicon glyphicon-user">iPhone</span></li>
+                         <li class="list-group-item"> <span class="glyphicon glyphicon-user"> iPhone</span></li>
+                        <li class="list-group-item"> <span class="glyphicon glyphicon-user"> iPhone</span></li>
+                         <li class="list-group-item"> <span class="glyphicon glyphicon-user"> iPhone</span></li>
+                         <li class="list-group-item"> <span class="glyphicon glyphicon-user"> iPhone</span></li>
+                        <li class="list-group-item"> <span class="glyphicon glyphicon-user"> iPhone</span></li>
                      </ul>
             </div>
+        </div>
         </div>
             
             <footer class="main-footer">
