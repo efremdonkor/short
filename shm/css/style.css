@@ -14,8 +14,8 @@ and open the template in the editor.
 }
 
 .jumbotron {
-    background: #333 url('../img/bg.jpg');
-    color: #fff;
+    background: #333 url('../img/ellis.jpg');
+    color: #000;
     text-align: center;
     border-bottom: 5px #f4f4f4 solid;
 }
@@ -34,7 +34,7 @@ and open the template in the editor.
     margin-bottom: 60px;
 }
 .jumbotron-sub {
-    
+    padding: 0 60px 40px 60px;
 }
 
 .navbar {
@@ -43,8 +43,9 @@ and open the template in the editor.
 }
 
 .navbar a{
-    color: #fff;
+    color: #000;
     margin-bottom: 3px;
+    font-weight: bolder;
 }
 
 .navbar a:hover {
