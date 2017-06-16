@@ -4,40 +4,10 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>SHB :: The Best for the DMV event hosting</title>
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/style.css">    
-    </head>
-    <body>
-
-        <div class="jumbotron jumbotron-main">
-            <!-- NAVBAR  -->
-            <nav class="navbar">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle Navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">SMB</a>
-                    </div>
-                    <div id="navbar" class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="index.php">Home</a></li>
-                            <li class="active"><a href="about.php">About</a></li>
-                            <li class="active"><a href="services.php">Services</a></li>
-                            <li class="active"><a href="contact.php">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+ <?php
+        // put your code here
+        include_once 'includes/header.php';
+        ?>
             <!-- MAIN PAGE -->
             <div class="container">
                 <h1>Short Handsome Boy</h1>
@@ -50,9 +20,7 @@ and open the template in the editor.
                 </p>
             </div>
         </div>
-        <?php
-        // put your code here
-        ?>
+       
 
         <div class="container">
             <div class="row">
@@ -71,13 +39,24 @@ and open the template in the editor.
                             Great personality for the utmost entertainment at any event. Be it adult or children's'
                             Great personality for the utmost entertainment at any event. Be it adult or children's
                         </p>
+                      
                     </div>
                 </div> 
                 <div class="col-md-4 box">
                     <div class="well">
                         <span class="glyphicon glyphicon-search"></span>
                         <h3>Full Engagement</h3>
-                        <p>Great personality for the utmost entertainment at any event. Be it adult or children</p>
+                        <!--<p>Great personality for the utmost entertainment at any event. Be it adult or children</p> -->
+                        <blockquote class="twitter-tweet">
+                            <p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over 
+                                <a href="https://twitter.com/GrandTetonNPS">@GrandTetonNPS</a>. 
+                                <a href="https://twitter.com/hashtag/nature?src=hash">#nature</a> 
+                                <a href="https://twitter.com/hashtag/sunset?src=hash">#sunset</a> 
+                                <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a>
+                            </p>&mdash; US Dept of Interior (@Interior) 
+                            <a href="https://twitter.com/Interior/status/463440424141459456">May 5, 2014</a>
+                        </blockquote> 
+                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </div> 
             </div>
@@ -99,7 +78,7 @@ and open the template in the editor.
                     <img class="img-full" src="img/mobile.jpg">
                 </div>
                 <div class="col-md-6">
-                    <h1>Reach us through all mediums</h1>
+<!--                    <h1>Reach us through all mediums</h1>
                     <p>You can reach SHB from any communication system or application you might have. No need to worry about getting something new or sophisticated.</p>
                     <ul class="list-group">
                         <li class="list-group-item"> <span class="glyphicon glyphicon-user"> Facebbok</span></li>
@@ -107,24 +86,11 @@ and open the template in the editor.
                         <li class="list-group-item"> <span class="glyphicon glyphicon-user"> Instagram</span></li>
                         <li class="list-group-item"> <span class="glyphicon glyphicon-user"> GMail</span></li>
                         <li class="list-group-item"> <span class="glyphicon glyphicon-user"> Whatsapp</span></li>
-                    </ul>
+                    </ul>-->
+                    <iframe width="560" height="400" src="https://www.youtube.com/embed/videoseries?list=PLefleVli07MMsPlOLv-w9ccQq6aadJDO-&autoplay=1" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
-        <footer class="main-footer">
-            <div class="container">
-                <div class="row">
-                    <p>
-                        Copyright &copy; <a href="http://www.efremtechnologies.com" >Efrem Technologies, 2017</a>
-                    </p>
-                </div>
-            </div>
-        </footer>
-
-        <script
-            src="https://code.jquery.com/jquery-3.2.1.js"
-            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-        crossorigin="anonymous"></script>
-        <script src="js/bootstrap.js"></script>
-    </body>
-</html>
+        <?php 
+        include_once 'includes/footer.php';
+        
